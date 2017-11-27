@@ -51,7 +51,7 @@ namespace Assignment2_Client
                             {
                                 case "1": // Get all songs
                                     restRequest = new RestRequest(resourcePath, Method.GET);
-                                    GetAllSongs(restClient,restRequest);
+                                    GetAllSongs(restClient, restRequest);
 
                                     Console.ReadKey();
                                     break;
@@ -201,6 +201,8 @@ namespace Assignment2_Client
                 }
             } while (!exitLoop);
         }
+
+        /*         Song CRUD Methods        */
         public static void GetAllSongs(RestClient restClient, RestRequest restRequest)
         {
             Console.Clear();
@@ -215,12 +217,13 @@ namespace Assignment2_Client
         }
         public static void AddSong(RestClient restClient, RestRequest restRequest)
         {
-            Console.Clear();
             string newTitle;
             string newAlbumName;
             string newArtist;
             string newGenre;
             string option;
+
+            Console.Clear();
             Console.Write("New Song Title: ");
             newTitle = Console.ReadLine();
             Console.Write("New Song Album: ");
@@ -264,6 +267,7 @@ namespace Assignment2_Client
             string newAlbumName;
             string newArtist;
             string newGenre;
+
             Console.Write("New Song Title: ");
             newTitle = Console.ReadLine();
             Console.Write("New Song Album: ");
@@ -287,6 +291,8 @@ namespace Assignment2_Client
             IRestResponse restResponse = restClient.Execute(restRequest);
             Console.WriteLine(restResponse.Content);
         }
+
+        /*         Review CRUD Methods        */
         public static void GetAllReviews(RestClient restClient, RestRequest restRequest)
         {
             Console.Clear();
@@ -301,11 +307,12 @@ namespace Assignment2_Client
         }
         public static void AddReview(RestClient restClient, RestRequest restRequest)
         {
-            Console.Clear();
             string newMessage;
             string newRating;
             string newSongId;
             string option;
+
+            Console.Clear();
             Console.Write("Song Id: ");
             newSongId = Console.ReadLine();
             Console.Write("New Review text: ");
@@ -344,6 +351,7 @@ namespace Assignment2_Client
             string newMessage;
             string newRating;
             string newSongId;
+
             Console.Write("Song Id: ");
             newSongId = Console.ReadLine();
             Console.Write("New Review text: ");
