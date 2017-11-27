@@ -1,0 +1,11 @@
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\bin\Debug\netcoreapp2.0\Assignment2_Client.deps.json
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\bin\Debug\netcoreapp2.0\Assignment2_Client.runtimeconfig.json
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\bin\Debug\netcoreapp2.0\Assignment2_Client.runtimeconfig.dev.json
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\bin\Debug\netcoreapp2.0\Assignment2_Client.dll
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\obj\Debug\netcoreapp2.0\Assignment2_Client.csprojResolveAssemblyReference.cache
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\obj\Debug\netcoreapp2.0\Assignment2_Client.csproj.CoreCompileInputs.cache
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\obj\Debug\netcoreapp2.0\Assignment2_Client.AssemblyInfoInputs.cache
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\obj\Debug\netcoreapp2.0\Assignment2_Client.AssemblyInfo.cs
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\bin\Debug\netcoreapp2.0\Assignment2_Client.pdb
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\obj\Debug\netcoreapp2.0\Assignment2_Client.dll
+G:\F2017\PROG3170\Assignment2_Client\Assignment2_Client\obj\Debug\netcoreapp2.0\Assignment2_Client.pdb

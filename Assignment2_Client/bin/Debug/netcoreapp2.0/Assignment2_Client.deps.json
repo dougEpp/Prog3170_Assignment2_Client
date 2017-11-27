@@ -1,0 +1,38 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "e2da468bbe57b96aef1beaac127b19b1a7dee214"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Assignment2_Client/1.0.0": {
+        "dependencies": {
+          "RestSharp": "106.1.0"
+        },
+        "runtime": {
+          "Assignment2_Client.dll": {}
+        }
+      },
+      "RestSharp/106.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assignment2_Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestSharp/106.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-USW0EIglmRPpBjLSO8WhdpxAkgJOiJ+7ubBqe4jSwYyzyq7ftIeiJg8H+fxMSO3msYW4jbXhhupehF8pPngWWA==",
+      "path": "restsharp/106.1.0",
+      "hashPath": "restsharp.106.1.0.nupkg.sha512"
+    }
+  }
+}
